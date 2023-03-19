@@ -2,7 +2,7 @@
 """Django's command-line utility for administrative tasks."""
 import os
 import sys
-
+import django
 
 def main():
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'cool_counters.settings')
@@ -19,3 +19,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
